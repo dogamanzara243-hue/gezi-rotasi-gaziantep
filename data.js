@@ -24,7 +24,42 @@ const SPOT_DATA = {
         paragraphs: ["Gaziantep, UNESCO tescilli muhteşem mutfağı, binlerce yıllık İpek Yolu tarihi ve dünyaca ünlü Zeugma Mozaik Müzesi ile büyüleyici bir kültür kentidir.", "Bakırcılar Çarşısı'nda çekiç sesleri arasında gezip, tarihi Tahmis Kahvesi'nde menengiç kahvesi içebilir ve efsanevi Antep baklavasının tadına bakabilirsiniz."],
         visitorNotes: [{"label": "En İyi Zaman", "value": "Ekim - Nisan Arası"}, {"label": "MüzeKart", "value": "Zeugma Müzesi'nde Geçerli"}, {"label": "Neyi Yemeli", "value": "Katmer, Kebap, Beyran ve Baklava"}]
     },
-    whyVisit: {"title": "Neden Gaziantep'e Gitmelisiniz?", "subtitle": "Dünyanın en lezzetli mutfağı ve görkemli mozaikler", "cards": [{"icon": "fa-solid fa-utensils", "title": "UNESCO Mutfağı", "description": "Kebapları, baklavaları, katmeri ve beyranı ile lezzet şöleni."}, {"icon": "fa-solid fa-border-all", "title": "Zeugma Mozaik Müzesi", "description": "Çingene Kızı mozaiği ile ünlü dünyanın en büyük mozaik müzelerinden biri."}, {"icon": "fa-solid fa-hammer", "title": "Tarihi Bakırcılar Çarşısı", "description": "Yüzyıllardır süregelen el işçiliği ve otantik atmosfer."}]},
+    
+    whyVisit: {
+        title: "Gaziantep Keşif Rotaları",
+        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        cards: [
+            {
+                icon: "fa-solid fa-landmark",
+                title: "Tarihi Yerler",
+                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
+                linkText: "Tarihi Keşfet",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-city",
+                title: "Modern Yerler",
+                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
+                linkText: "Moderni İncele",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-gem",
+                title: "Sofistike Yerler",
+                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                linkText: "Sofistike Noktalar",
+                url: "#where-to-stay-title"
+            },
+            {
+                icon: "fa-solid fa-tree",
+                title: "Doğal Güzellikler",
+                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                linkText: "Doğayı Gör",
+                url: "#transport-title"
+            }
+        ]
+    },
+     {"icon": "fa-solid fa-border-all", "title": "Zeugma Mozaik Müzesi", "description": "Çingene Kızı mozaiği ile ünlü dünyanın en büyük mozaik müzelerinden biri."}, {"icon": "fa-solid fa-hammer", "title": "Tarihi Bakırcılar Çarşısı", "description": "Yüzyıllardır süregelen el işçiliği ve otantik atmosfer."}]},
     mustSee: {
         title: "Görülmesi Gereken Öne Çıkan Noktalar",
         items: [{"category": "Müze", "title": "Zeugma Mozaik Müzesi", "description": "Efsanevi Çingene Kızı mozaiği."}, {"category": "Çarşı", "title": "Bakırcılar Çarşısı", "description": "Geleneksel zanaatların yaşadığı tarihi çarşı."}, {"category": "Mekan", "title": "Tarihi Tahmis Kahvesi", "description": "1635'ten beri hizmet veren otantik kahvehane."}, {"category": "Tarih", "title": "Gaziantep Kalesi & Hanlar", "description": "Zincirli Bedesten ve Hışvahan."}]
