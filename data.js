@@ -1,76 +1,179 @@
 const SPOT_DATA = {
-    theme: "history",
-    title: "Gaziantep Gezi Rehberi",
-    subtitle: "Gastronomi Başkenti, Zeugma ve Tarihi İpek Yolu",
-    category: "Tarih & Lezzet",
-    hero: {
-        badge: "UNESCO Gastronomi Kenti",
-        coverImage: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
-        stats: [
-            { label: "Ziyaretçi", value: "Yıllık 1M+" },
-            { label: "İdeal Süre", value: "2-3 Gün" },
-            { label: "Puan", value: "4.9 / 5" },
-            { label: "Bölge", value: "Güneydoğu Anadolu" }
-        ]
-    },
-    venueSummary: {
-        badgeTitle: "GASTRONOMİ GEZİSİ",
-        typeTitle: "Gaziantep Ziyaret Rehberi",
-        description: "Zeugma Mozaik Müzesi'nden Bakırcılar Çarşısı'na, Tahmis Kahvesi'nden eşsiz fıstıklı baklavaya lezzet ve tarih rotası.",
-        details: [{"label": "Bölge", "value": "Güneydoğu Anadolu"}, {"label": "Öne Çıkan", "value": "Zeugma & Baklava"}, {"label": "İdeal Süre", "value": "2-3 Gün"}]
-    },
-    overview: {
-        title: "Gaziantep Gezi Rehberi Genel Bakış",
-        paragraphs: ["Gaziantep, UNESCO tescilli muhteşem mutfağı, binlerce yıllık İpek Yolu tarihi ve dünyaca ünlü Zeugma Mozaik Müzesi ile büyüleyici bir kültür kentidir.", "Bakırcılar Çarşısı'nda çekiç sesleri arasında gezip, tarihi Tahmis Kahvesi'nde menengiç kahvesi içebilir ve efsanevi Antep baklavasının tadına bakabilirsiniz."],
-        visitorNotes: [{"label": "En İyi Zaman", "value": "Ekim - Nisan Arası"}, {"label": "MüzeKart", "value": "Zeugma Müzesi'nde Geçerli"}, {"label": "Neyi Yemeli", "value": "Katmer, Kebap, Beyran ve Baklava"}]
-    },
-    
-    whyVisit: {
-        title: "Gaziantep Keşif Rotaları",
-        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
-        cards: [
+    "theme": "history",
+    "title": "Gaziantep Gezi Rehberi",
+    "subtitle": "Gastronomi Başkenti, Zeugma ve Tarihi İpek Yolu",
+    "category": "Gastronomi & Tarih",
+    "hero": {
+        "badge": "UNESCO Gastronomi Kenti",
+        "coverImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
+        "stats": [
             {
-                icon: "fa-solid fa-landmark",
-                title: "Tarihi Yerler",
-                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
-                linkText: "Tarihi Keşfet",
-                url: "#must-see-items"
+                "label": "Ziyaretçi",
+                "value": "Yıllık 1M+"
             },
             {
-                icon: "fa-solid fa-city",
-                title: "Modern Yerler",
-                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
-                linkText: "Moderni İncele",
-                url: "#must-see-items"
+                "label": "İdeal Süre",
+                "value": "3-5 Gün"
             },
             {
-                icon: "fa-solid fa-gem",
-                title: "Sofistike Yerler",
-                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
-                linkText: "Sofistike Noktalar",
-                url: "#where-to-stay-title"
+                "label": "Puan",
+                "value": "4.9 / 5"
             },
             {
-                icon: "fa-solid fa-tree",
-                title: "Doğal Güzellikler",
-                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
-                linkText: "Doğayı Gör",
-                url: "#transport-title"
+                "label": "Bölge",
+                "value": "Türkiye"
             }
         ]
     },
-     {"icon": "fa-solid fa-border-all", "title": "Zeugma Mozaik Müzesi", "description": "Çingene Kızı mozaiği ile ünlü dünyanın en büyük mozaik müzelerinden biri."}, {"icon": "fa-solid fa-hammer", "title": "Tarihi Bakırcılar Çarşısı", "description": "Yüzyıllardır süregelen el işçiliği ve otantik atmosfer."}]},
-    mustSee: {
-        title: "Görülmesi Gereken Öne Çıkan Noktalar",
-        items: [{"category": "Müze", "title": "Zeugma Mozaik Müzesi", "description": "Efsanevi Çingene Kızı mozaiği."}, {"category": "Çarşı", "title": "Bakırcılar Çarşısı", "description": "Geleneksel zanaatların yaşadığı tarihi çarşı."}, {"category": "Mekan", "title": "Tarihi Tahmis Kahvesi", "description": "1635'ten beri hizmet veren otantik kahvehane."}, {"category": "Tarih", "title": "Gaziantep Kalesi & Hanlar", "description": "Zincirli Bedesten ve Hışvahan."}]
+    "venueSummary": {
+        "badgeTitle": "GAZIANTEP ÖZEL REHBERİ",
+        "typeTitle": "Gezilecek Yerler ve Destinasyonlar",
+        "description": "Zeugma Mozaik Müzesi'nden Bakırcılar Çarşısı'na, Tahmis Kahvesi'nden eşsiz fıstıklı baklavaya lezzet ve tarih rotası.",
+        "details": [
+            {
+                "label": "Bölge",
+                "value": "Türkiye"
+            },
+            {
+                "label": "Öne Çıkan",
+                "value": "Tarih, Kültür & Doğa"
+            },
+            {
+                "label": "İdeal Süre",
+                "value": "2-4 Gün"
+            }
+        ]
     },
-    transportation: {"title": "Gaziantep'e Ulaşım Seçenekleri", "tip": "Gaziantep Havalimanı merkeze yarım saat mesafededir.", "mapUrl": "https://maps.google.com/?q=Gaziantep+Turkey", "methods": [{"icon": "fa-solid fa-plane", "title": "Oğuzeli Havalimanı", "detail": "Havaş servisleri ile merkeze hızlı ulaşım."}, {"icon": "fa-solid fa-bus", "title": "Gaziantep Otogarı", "detail": "Çevre illere ve büyükşehirlere sık otobüs seferleri."}]},
-    whereToStay: {
-        title: "Konaklama Önerileri",
-        hotels: [{"badge": "Tarihi Konak", "name": "Hışvahan Hotel", "distance": "Gaziantep Kalesi Altı", "link": "https://www.google.com/travel/hotels"}, {"badge": "Merkezi", "name": "Grand Hotel Gaziantep", "distance": "Merkezde Lüks", "link": "https://www.google.com/travel/hotels"}]
+    "overview": {
+        "title": "Gaziantep Genel Bakış",
+        "paragraphs": [
+            "Gaziantep; UNESCO tescilli mutfağı, binlerce yıllık mozaik sanatı ve tarihi İpek Yolu hanlarıyla Doğu Anadolu'nun en zengin kültür merkezidir.",
+            "Bakırcılar Çarşısı'nda çekiç sesleri arasında gezip, 1635 yapımı Tahmis Kahvesi'nde menengiç kahvesi içebilir ve çıtır baklavaları tadabilirsiniz."
+        ],
+        "visitorNotes": [
+            {
+                "label": "En İyi Zaman",
+                "value": "Eylül-Kasım & Mart-Mayıs"
+            },
+            {
+                "label": "Ulaşım",
+                "value": "Gaziantepkart & Taksi"
+            },
+            {
+                "label": "Deneyim",
+                "value": "Bakırcılar Çarşısı Alışverişi"
+            }
+        ]
     },
-    whereToEat: {
-        title: "Nerede Ne Yenir?",
-        restaurants: [{"badge": "Baklava", "name": "Elmacıpazarı Güllüoğlu", "detail": "Tarihi Baklavacı", "rating": "4.9"}, {"badge": "Beyran & Kebap", "name": "Kebapçı Halil Usta", "detail": "Küşleme ve Antep Kebabı", "rating": "4.8"}]
+    "whyVisit": {
+        "title": "Gaziantep Keşif Rotaları",
+        "subtitle": "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        "cards": [
+            {
+                "icon": "fa-solid fa-landmark",
+                "title": "Tarihi Yerler",
+                "description": "Gaziantep'in köklü geçmişini yansıtan anıtlar, surlar ve müzeler.",
+                "linkText": "Tarihi Keşfet",
+                "url": "#must-see-items"
+            },
+            {
+                "icon": "fa-solid fa-city",
+                "title": "Modern Yerler",
+                "description": "Şehrin en hareketli caddeleri, modern meydanları ve kültür merkezleri.",
+                "linkText": "Moderni İncele",
+                "url": "#must-see-items"
+            },
+            {
+                "icon": "fa-solid fa-gem",
+                "title": "Sofistike Yerler",
+                "description": "Nezih kafeler, sanat galerileri ve özel konaklama mekanları.",
+                "linkText": "Sofistike Noktalar",
+                "url": "#where-to-stay-title"
+            },
+            {
+                "icon": "fa-solid fa-tree",
+                "title": "Doğal Güzellikler",
+                "description": "Parklar, kanyonlar, sahiller ve nefes kesen manzara seyir noktaları.",
+                "linkText": "Doğayı Gör",
+                "url": "#transport-title"
+            }
+        ]
+    },
+    "mustSee": {
+        "title": "Görülmesi Gereken Önemli Noktalar",
+        "items": [
+            {
+                "category": "Müze",
+                "title": "Zeugma Mozaik Müzesi",
+                "description": "Çingene Kızı mozaiğiyle tanınan dev mozaik müzesi."
+            },
+            {
+                "category": "Tarihi Çarşı",
+                "title": "Bakırcılar Çarşısı & Tarihi Hanlar",
+                "description": "El sanatı bakırcılık ve Gümrük Hanı."
+            },
+            {
+                "category": "Kale",
+                "title": "Gaziantep Kalesi",
+                "description": "Şehrin merkezinde yükselen tarihi savunma kalesi."
+            },
+            {
+                "category": "Kültür",
+                "title": "Tahmis Kahvesi",
+                "description": "17. yüzyıldan beri hizmet veren otantik kahvehane."
+            }
+        ]
+    },
+    "transportation": {
+        "title": "Ulaşım Bilgileri",
+        "tip": "Şehir içi toplu taşıma kartlarını kullanarak tüm turistik mekanlara kolayca ulaşabilirsiniz.",
+        "mapUrl": "https://maps.google.com/?q=Gaziantep+Turkey",
+        "mapBgImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
+        "methods": [
+            {
+                "icon": "fa-solid fa-plane",
+                "title": "Havalimanı Ulaşımı",
+                "detail": "Havaş ve belediye otobüs seferleri ile şehir merkezine rahat erişim."
+            },
+            {
+                "icon": "fa-solid fa-bus",
+                "title": "Şehirlerarası Otogar",
+                "detail": "Türkiye'nin tüm illerinden düzenli otobüs seferleri."
+            }
+        ]
+    },
+    "whereToStay": {
+        "title": "Konaklama Önerileri",
+        "hotels": [
+            {
+                "badge": "Tarihi Konak",
+                "name": "Hışvahan Butik Otel",
+                "distance": "Kale Altı / Çarşı",
+                "link": "https://www.google.com/travel/hotels"
+            },
+            {
+                "badge": "Beş Yıldızlı",
+                "name": "Grand Hotel Gaziantep",
+                "distance": "Şehitkamil",
+                "link": "https://www.google.com/travel/hotels"
+            }
+        ]
+    },
+    "whereToEat": {
+        "title": "Nerede Ne Yenir?",
+        "restaurants": [
+            {
+                "badge": "Efsane Baklava",
+                "name": "Elmacıpazarı Güllüoğlu",
+                "detail": "Tarihi Elmacı Pazarı",
+                "rating": "4.9"
+            },
+            {
+                "badge": "Kebap & Katmer",
+                "name": "Kebapçı Halil Usta",
+                "detail": "Zeugma Müzesi Arkası",
+                "rating": "4.8"
+            }
+        ]
     }
 };
